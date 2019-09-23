@@ -1,6 +1,6 @@
 {
-  "name": "@b6y/commons",
-  "version": "1.0.4",
+  "name": "@b6y/react-monaco-editor",
+  "version": "1.1.0",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
