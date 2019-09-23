@@ -1,0 +1,25 @@
+{
+  "name": "@b6y/commons",
+  "version": "1.0.4",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "rimraf lib && tsc",
+    "check": "tsc --skipLibCheck --pretty --project tsconfig.json -w --noEmit"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/ramda": "^0.26.22",
+    "@types/react": "^16.9.2",
+    "monaco-editor": "^0.18.1",
+    "ramda": "^0.26.1",
+    "react": "^16.9.0",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.0",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.3"
+  }
+}
